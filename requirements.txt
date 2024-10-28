@@ -1,2 +1,8 @@
 -m "Add plotly to requirements"
-pip install plotly
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+import os
+import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
