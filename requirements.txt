@@ -1,1 +1,2 @@
 -m "Add plotly to requirements"
+pip install plotly
