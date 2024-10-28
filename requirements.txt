@@ -1,8 +1,6 @@
 -m "Add plotly to requirements"
-import streamlit as st
-import plotly.express as px
-import pandas as pd
-import os
-import numpy as np
-import warnings
-warnings.filterwarnings('ignore')
+python -m venv myenv
+source myenv/bin/activate  # On Windows use myenv\Scripts\activate
+pip install -r requirements.txt
+streamlit run your_app.py
+
